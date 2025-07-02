@@ -1,0 +1,37 @@
+# === Core Web Framework ===
+fastapi
+uvicorn[standard]  # ASGI server for FastAPI
+
+# === Database & ORM ===
+supabase
+asyncpg  # PostgreSQL async driver
+
+# === WhatsApp Bot ===
+twilio
+
+# === Dashboard ===
+streamlit
+
+# === AI & NLP ===
+openai
+sentence-transformers  # For embeddings
+transformers  # Hugging Face
+
+# === PDF & Scraping ===
+beautifulsoup4
+requests
+pdfplumber
+
+# === QR Code ===
+qrcode
+pyzbar  # For QR code scanning
+
+# === Geo & Spatial ===
+geojson
+shapely
+
+# === Utilities & Testing ===
+python-dotenv  # For .env config
+pytest
+
+# === TODO: Add more as needed for analytics, reminders, etc. === 

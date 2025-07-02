@@ -61,3 +61,29 @@ Key Terms:
 1. Requires attribution: "Powered by DigiKazi"
 2. Complies with Kenya Data Protection Act (2019)
 3. Bans use for illegal gigs (e.g., unlicensed transport)
+```
+
+---
+
+## 🗂️ Planned Project Structure
+
+```
+backend/                # FastAPI backend, Supabase integration, API modules
+  ├── main.py           # FastAPI app entrypoint
+  ├── db.py             # Supabase/Postgres connection
+  ├── models.py         # Pydantic models
+  ├── routers/          # API route modules (gigs, tenders, emergency, etc.)
+  ├── ai/               # AI models, embeddings, fraud detection
+  ├── scraping/         # Scrapers for tenders, equipment, etc.
+  ├── qr/               # QR code generation and logging
+  └── utils/            # Helper functions
+bot/                    # WhatsApp (Twilio) bot integration
+  └── bot.py            # Main bot logic
+streamlit_dashboard/    # Streamlit admin dashboard
+  └── app.py            # Dashboard entrypoint
+config/                 # Config files, secrets (env, etc.)
+requirements.txt        # Python dependencies
+.github/workflows/      # CI/CD workflows (GitHub Actions)
+```
+
+**Each module will include comments and TODOs for features like trust/safety, reminders, analytics, and language support.**
