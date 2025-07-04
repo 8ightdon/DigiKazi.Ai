@@ -40,10 +40,10 @@ DigiKazi AI-Bot is an AI-powered WhatsApp bot that solves **5 critical problems*
 ## 👥 Dream Team & Roles  
 | Role                  | Member       | Key Responsibilities                          | Superpower                          |  
 |-----------------------|--------------|-----------------------------------------------|-------------------------------------|  
-| **AI Architect**      | [Name]       | NLP matching, fraud detection, OpenAI/Supabase| Makes AI understand Sheng slang      |  
-| **WhatsApp Maestro**  | [Name]       | Twilio flows, UX writing, demo recordings     | Gets 200+ WhatsApp replies/hour     |  
-| **Backend Ninja**     | [Name]       | FastAPI, M-Pesa, database design              | Debugs while sleeping               |  
-| **Data Scraper**      | [Name]       | Tender PDF parsing, equipment geo-tracking    | Extracts data from ANY website      |  
+| **AI Architect**      | Elias       | NLP matching, fraud detection, OpenAI/Supabase| Makes AI understand Sheng slang      |  
+| **WhatsApp Maestro**  | Berlyn       | Twilio flows, UX writing, demo recordings     | Gets 200+ WhatsApp replies/hour     |  
+| **Backend Ninja**     | Daisy       | FastAPI, M-Pesa, database design              | Debugs while sleeping               |  
+| **Data Scraper**      | Kerama       | Tender PDF parsing, equipment geo-tracking    | Extracts data from ANY website      |  
 | **Pitch Commander**   | Presley      | Investor slides, revenue models, storytelling | Turns bugs into "features"          |  
 
 **How We Collaborate:**  
