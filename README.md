@@ -44,7 +44,7 @@ DigiKazi AI-Bot is an AI-powered WhatsApp bot that solves **5 critical problems*
 | **WhatsApp Maestro**  | [Name]       | Twilio flows, UX writing, demo recordings     | Gets 200+ WhatsApp replies/hour     |  
 | **Backend Ninja**     | [Name]       | FastAPI, M-Pesa, database design              | Debugs while sleeping               |  
 | **Data Scraper**      | [Name]       | Tender PDF parsing, equipment geo-tracking    | Extracts data from ANY website      |  
-| **Pitch Commander**   | [Name]       | Investor slides, revenue models, storytelling | Turns bugs into "features"          |  
+| **Pitch Commander**   | Presley      | Investor slides, revenue models, storytelling | Turns bugs into "features"          |  
 
 **How We Collaborate:**  
 - **Morning Huddle**: 15-min Zoom to block blockers  
