@@ -8,9 +8,10 @@ Supabase/Postgres DB Connection
 from supabase import create_client, Client
 import os
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+# Supabase/Postgres connection
+def get_db():
+    url = os.getenv("SUPABASE_URL")
+    key = os.getenv("SUPABASE_KEY")
+    return create_client(url, key)
 
 # TODO: Add auth helpers, PostGIS queries, and privacy checks 

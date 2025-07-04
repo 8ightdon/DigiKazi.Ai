@@ -11,6 +11,8 @@ class User(BaseModel):
     id: str
     name: str
     phone: str
+    skills: List[str]
+    location: str
     role: str  # fundi, rider, SME, etc.
     rating: Optional[float]
     language: Optional[str] = "en"  # TODO: Support Swahili/Sheng
@@ -21,6 +23,7 @@ class Gig(BaseModel):
     title: str
     description: str
     location: str
+    pay: float
     posted_by: str  # user id
     is_active: bool
     # TODO: Add analytics, reminders
@@ -56,4 +59,9 @@ class Emergency(BaseModel):
     type: str
     location: str
     timestamp: str
-    # TODO: Add trusted contacts, panic button 
+    # TODO: Add trusted contacts, panic button
+
+class EmergencyRequest(BaseModel):
+    user_id: str
+    location: str
+    type: str  # e.g., "medical", "breakdown" 

@@ -87,3 +87,19 @@ requirements.txt        # Python dependencies
 ```
 
 **Each module will include comments and TODOs for features like trust/safety, reminders, analytics, and language support.**
+<<<<<<< HEAD
+=======
+
+## Quickstart
+
+1. Copy `.env.example` to `.env` and fill in your keys.
+2. `docker-compose up --build`
+3. Access:
+   - API: http://localhost:8000
+   - WhatsApp Bot: http://localhost:5002
+   - Dashboard: http://localhost:8501
+
+## Folder Structure
+
+See code comments for details on each module.
+>>>>>>> 3be50b49 (Initial DigiKazi AI-Bot hackathon codebase)
