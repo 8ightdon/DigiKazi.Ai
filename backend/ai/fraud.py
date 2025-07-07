@@ -1,10 +1,28 @@
-# Fraud detection logic
-def detect_fraud(message: str):
+"""
+AI logic for detecting fraud in job/tender messages using keywords or ML models.
+"""
+
+def detect_fraud(text: str):
     """
-    Use Hugging Face model or keyword rules to detect fraud.
+    Detects potential fraud in a given text using simple keyword matching.
+    Args:
+        text (str): The message or job description to analyze.
+    Returns:
+        dict: Fraud detection result (stubbed for demo).
     """
-    suspicious_keywords = ["mpesa refund", "urgent send", "lottery", "advance fee"]
-    for word in suspicious_keywords:
-        if word in message.lower():
-            return {"fraud": True, "reason": f"Keyword detected: {word}"}
-    return {"fraud": False} 
+    # TODO: Replace with real ML model or Hugging Face classifier
+    # Simple keyword-based detection for demo
+    fraud_keywords = ["advance fee", "send money", "urgent payment", "scam"]
+    found = [kw for kw in fraud_keywords if kw in text.lower()]
+    if found:
+        return {
+            "fraud": True,
+            "reasons": found,
+            "message": "Potential fraud detected (stub)."
+        }
+    else:
+        return {
+            "fraud": False,
+            "reasons": [],
+            "message": "No fraud detected (stub)."
+        } 

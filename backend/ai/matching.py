@@ -7,13 +7,37 @@ AI Matching Module
 # TODO: Implement match_user_to_gig(user, gig) using OpenAI embeddings
 # TODO: Add prompt templates for matching 
 
-# AI logic for matching users to gigs
+"""
+AI logic for matching users to gigs using embeddings or simple keyword matching.
+"""
+
 def match_gig(user, db):
     """
-    Use OpenAI embeddings to match user to best gig.
+    Matches a user to the best available gigs.
+    Args:
+        user (User): The user object containing skills, location, etc.
+        db: Database connection or context (not used in stub).
+    Returns:
+        dict: Dictionary with a list of matched gigs (stubbed for demo).
     """
-    # 1. Fetch gigs from DB
-    gigs = db.table("gigs").select("*").execute().data
-    # 2. Compute embedding similarity (pseudo-code)
-    # 3. Return top match
-    return {"matched_gig": gigs[0] if gigs else None} 
+    # TODO: Replace with real embedding-based search using OpenAI/Supabase
+    # For now, return a stubbed gig list
+    return {
+        "gigs": [
+            {
+                "id": "g1",
+                "title": "Plumbing Job in Nairobi",
+                "pay": 1500,
+                "location": "Nairobi",
+                "match_score": 0.95
+            },
+            {
+                "id": "g2",
+                "title": "Electrician Needed in Westlands",
+                "pay": 2000,
+                "location": "Nairobi",
+                "match_score": 0.89
+            }
+        ],
+        "message": "Matched gigs based on your skills and location (stub)."
+    } 

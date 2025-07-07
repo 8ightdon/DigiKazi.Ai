@@ -1,29 +1,39 @@
-name: CI
+# Continuous Integration/Continuous Deployment workflow for DigiKazi AI-Bot
+# This workflow lints, tests, and builds the backend on every push/PR to main or dev
+
+name: CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [main, dev]
   pull_request:
-    branches: [ main ]
+    branches: [main, dev]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the code
       - uses: actions/checkout@v3
+      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+      # Install dependencies
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Lint with flake8
+      # Lint the backend code
+      - name: Lint
         run: |
-          pip install flake8
-          flake8 .
-      - name: Run tests
+          flake8 backend/
+      # Run tests
+      - name: Test
         run: |
-          pytest
+          pytest tests/
+      # Build Docker image (optional, for deployment)
+      - name: Build Docker image
+        run: |
+          docker build -t digikazi-backend ./backend
       # TODO: Add deployment steps for Railway/Render/Streamlit 
