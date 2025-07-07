@@ -18,4 +18,4 @@ def parse_pdf(pdf_url: str):
     # For now, return a stubbed string
     return "Sample extracted text from PDF (stub)."
 
-# TODO: Implement parse_tender_pdf(pdf_path) to extract deadline, requirements, contact info 
+# TODO: Implement parse_tender_pdf(pdf_path) to extract deadline, requirements, contact info

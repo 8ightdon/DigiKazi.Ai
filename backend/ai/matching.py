@@ -5,7 +5,7 @@ AI Matching Module
 """
 
 # TODO: Implement match_user_to_gig(user, gig) using OpenAI embeddings
-# TODO: Add prompt templates for matching 
+# TODO: Add prompt templates for matching
 
 """
 AI logic for matching users to gigs using embeddings or simple keyword matching.
@@ -40,4 +40,4 @@ def match_gig(user, db):
             }
         ],
         "message": "Matched gigs based on your skills and location (stub)."
-    } 
+    }

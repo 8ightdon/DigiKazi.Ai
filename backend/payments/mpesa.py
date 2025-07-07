@@ -25,4 +25,4 @@ def process_payment(amount: float, phone: str):
         "amount": amount,
         "phone": phone,
         "message": "M-Pesa payment initiated (stub)."
-    } 
+    }

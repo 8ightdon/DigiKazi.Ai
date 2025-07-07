@@ -27,4 +27,4 @@ def scrape_tenders():
             "deadline": "2025-08-01",
             "url": "https://county.gov/tenders/school-supplies.pdf"
         }
-    ] 
+    ]

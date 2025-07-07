@@ -23,4 +23,4 @@ def test_match_gig():
     db = None  # Replace with a mock or fixture in real tests
     result = match_gig(user, db)
     # Assert that the result contains the expected key (example logic)
-    assert "gigs" in result 
+    assert "gigs" in result

@@ -25,4 +25,4 @@ def detect_fraud(text: str):
             "fraud": False,
             "reasons": [],
             "message": "No fraud detected (stub)."
-        } 
+        }

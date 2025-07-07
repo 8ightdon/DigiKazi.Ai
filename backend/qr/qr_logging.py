@@ -25,4 +25,4 @@ def log_qr_event(equipment_id: str, user_id: str, action: str):
     # TODO: Save log_entry to database or file
     return log_entry
 
-# TODO: Implement generate_qr_code(equipment_id), log_qr_scan(scan_data) 
+# TODO: Implement generate_qr_code(equipment_id), log_qr_scan(scan_data)

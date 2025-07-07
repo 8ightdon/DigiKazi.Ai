@@ -35,4 +35,4 @@ def handle_message(msg):
             "👋 Welcome to DigiKazi!\n"
             "Type 'gig', 'tender', 'emergency', 'equipment', or 'ride' to get started.\n"
             "For help, type 'help'."
-        ) 
+        )

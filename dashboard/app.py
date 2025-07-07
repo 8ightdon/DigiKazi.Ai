@@ -17,4 +17,4 @@ st.write("- Total Users: 100 (stub)")
 st.write("- Total Gigs: 25 (stub)")
 st.write("- Total Payments: KES 50,000 (stub)")
 
-# TODO: Add metrics, maps, booking/payment tables, analytics 
+# TODO: Add metrics, maps, booking/payment tables, analytics

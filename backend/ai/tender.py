@@ -18,4 +18,4 @@ def analyze_tender(pdf_url):
         "requirements": "Valid business license, tax compliance certificate",
         "summary": "Construction of a new school block in Nairobi County.",
         "message": "Tender info extracted (stub)."
-    } 
+    }
